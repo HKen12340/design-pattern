@@ -1,3 +1,7 @@
+Interface Goods{
+ public int getPrice(){}
+}
+
 class CostManeger{
 	public int compute(int a,int b){
 		return a * b;
