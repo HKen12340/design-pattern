@@ -1,4 +1,4 @@
-Interface Goods{
+interface Goods{
  public int getPrice(){}
 }
 
@@ -22,6 +22,6 @@ class MoneyManager extends CostManeger implements Goods{
 		reutrn result * 1.1;
 	}
 	
-	print(getPrice());
+	System.out.println(getPrice());
 
 }
